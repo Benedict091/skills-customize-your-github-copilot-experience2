@@ -1,19 +1,37 @@
+# 📘 Assignment: Hangman Game Challenge
 
-# 🎮 Hangman Game Challenge
+## 🎯 Objective
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+Create a playable Hangman game in Python using strings, loops, conditionals, and user input. This assignment will help you practice working with word lists, tracking game state, and designing a simple interactive program.
 
-## � What You'll Build
+## 📝 Tasks
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+### 🛠️ Create the game logic
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+#### Description
+Build the core game logic for a Hangman game where the player tries to guess letters in a hidden word before running out of chances.
 
-## ✅ Must Have's
+#### Requirements
+Completed program should:
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+- Choose a random word from a predefined list of words
+- Display the hidden word as underscores, such as `_ _ _ _ _`
+- Accept a single-letter guess from the player
+- Reveal matching letters in the correct positions
+- Track how many incorrect guesses remain
+- Prevent repeated guesses from lowering the player's attempts
+- End the game when the player wins or runs out of attempts
+
+### 🛠️ Add the game experience
+
+#### Description
+Improve the player experience by adding clear feedback, win/lose outcomes, and a polished game loop that feels complete.
+
+#### Requirements
+Completed program should:
+
+- Show a message after each guess telling the player whether it was correct or incorrect
+- Display the letters already guessed so the player can keep track
+- Print a final message when the player wins or loses
+- Give the user a way to play again after the round ends
+- Keep the program easy to read and follow using clear prompts and messages
