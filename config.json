@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "using-web-apis",
+      "title": "Using Web APIs with Python",
+      "description": "Fetch and display JSON data from a web API using Python's standard library.",
+      "path": "assignments/using-web-apis",
+      "dueDate": "2026-10-07",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
